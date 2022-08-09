@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Expense Dashboard correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div>
+          <input
+            type="text"
+            value=""
+          />
+          <select>
+            <option
+              value="date"
+            >
+              Date
+            </option>
+            <option
+              value="amount"
+            >
+              Amount
+            </option>
+          </select>
+          <div
+            class="DateRangePicker"
+          >
+            <div>
+              <div
+                class="DateRangePickerInput"
+              >
+                <div
+                  class="DateInput DateInput--open-down"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-startDate"
+                    aria-label="Start Date"
+                    autocomplete="off"
+                    class="DateInput__input needsclick"
+                    id="startDate"
+                    name="startDate"
+                    placeholder="Start Date"
+                    type="text"
+                    value="2022-08-01"
+                  />
+                  <p
+                    class="screen-reader-only"
+                    id="DateInput__screen-reader-message-startDate"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                  <div
+                    class="DateInput__display-text DateInput__display-text--has-input"
+                  >
+                    08/01/2022
+                  </div>
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="DateRangePickerInput__arrow"
+                  role="presentation"
+                >
+                  <svg
+                    viewBox="0 0 1000 1000"
+                  >
+                    <path
+                      d="M694.4 242.4l249.1 249.1c11 11 11 21 0 32L694.4 772.7c-5 5-10 7-16 7s-11-2-16-7c-11-11-11-21 0-32l210.1-210.1H67.1c-13 0-23-10-23-23s10-23 23-23h805.4L662.4 274.5c-21-21.1 11-53.1 32-32.1z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="DateInput DateInput--open-down"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-endDate"
+                    aria-label="End Date"
+                    autocomplete="off"
+                    class="DateInput__input needsclick"
+                    id="endDate"
+                    name="endDate"
+                    placeholder="End Date"
+                    type="text"
+                    value="2022-08-31"
+                  />
+                  <p
+                    class="screen-reader-only"
+                    id="DateInput__screen-reader-message-endDate"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                  <div
+                    class="DateInput__display-text DateInput__display-text--has-input"
+                  >
+                    08/31/2022
+                  </div>
+                </div>
+                <button
+                  aria-label="Clear Dates"
+                  class="DateRangePickerInput__clear-dates"
+                  type="button"
+                >
+                  <div
+                    class="DateRangePickerInput__close-icon"
+                  >
+                    <svg
+                      viewBox="0 0 12 12"
+                    >
+                      <path
+                        d="M11.53.47a.75.75 0 0 0-1.061 0l-4.47 4.47L1.529.47A.75.75 0 1 0 .468 1.531l4.47 4.47-4.47 4.47a.75.75 0 1 0 1.061 1.061l4.47-4.47 4.47 4.47a.75.75 0 1 0 1.061-1.061l-4.47-4.47 4.47-4.47a.75.75 0 0 0 0-1.061z"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>
+            No Expenses
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <input
+          type="text"
+          value=""
+        />
+        <select>
+          <option
+            value="date"
+          >
+            Date
+          </option>
+          <option
+            value="amount"
+          >
+            Amount
+          </option>
+        </select>
+        <div
+          class="DateRangePicker"
+        >
+          <div>
+            <div
+              class="DateRangePickerInput"
+            >
+              <div
+                class="DateInput DateInput--open-down"
+              >
+                <input
+                  aria-describedby="DateInput__screen-reader-message-startDate"
+                  aria-label="Start Date"
+                  autocomplete="off"
+                  class="DateInput__input needsclick"
+                  id="startDate"
+                  name="startDate"
+                  placeholder="Start Date"
+                  type="text"
+                  value="2022-08-01"
+                />
+                <p
+                  class="screen-reader-only"
+                  id="DateInput__screen-reader-message-startDate"
+                >
+                  Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                </p>
+                <div
+                  class="DateInput__display-text DateInput__display-text--has-input"
+                >
+                  08/01/2022
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                class="DateRangePickerInput__arrow"
+                role="presentation"
+              >
+                <svg
+                  viewBox="0 0 1000 1000"
+                >
+                  <path
+                    d="M694.4 242.4l249.1 249.1c11 11 11 21 0 32L694.4 772.7c-5 5-10 7-16 7s-11-2-16-7c-11-11-11-21 0-32l210.1-210.1H67.1c-13 0-23-10-23-23s10-23 23-23h805.4L662.4 274.5c-21-21.1 11-53.1 32-32.1z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="DateInput DateInput--open-down"
+              >
+                <input
+                  aria-describedby="DateInput__screen-reader-message-endDate"
+                  aria-label="End Date"
+                  autocomplete="off"
+                  class="DateInput__input needsclick"
+                  id="endDate"
+                  name="endDate"
+                  placeholder="End Date"
+                  type="text"
+                  value="2022-08-31"
+                />
+                <p
+                  class="screen-reader-only"
+                  id="DateInput__screen-reader-message-endDate"
+                >
+                  Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                </p>
+                <div
+                  class="DateInput__display-text DateInput__display-text--has-input"
+                >
+                  08/31/2022
+                </div>
+              </div>
+              <button
+                aria-label="Clear Dates"
+                class="DateRangePickerInput__clear-dates"
+                type="button"
+              >
+                <div
+                  class="DateRangePickerInput__close-icon"
+                >
+                  <svg
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      d="M11.53.47a.75.75 0 0 0-1.061 0l-4.47 4.47L1.529.47A.75.75 0 1 0 .468 1.531l4.47 4.47-4.47 4.47a.75.75 0 1 0 1.061 1.061l4.47-4.47 4.47 4.47a.75.75 0 1 0 1.061-1.061l-4.47-4.47 4.47-4.47a.75.75 0 0 0 0-1.061z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p>
+          No Expenses
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

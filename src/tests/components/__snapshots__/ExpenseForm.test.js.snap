@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Expense form correctly with data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <form>
+          <input
+            placeholder="Description"
+            type="text"
+            value="Gum"
+          />
+          <input
+            placeholder="Amount"
+            type="text"
+            value="1.95"
+          />
+          <div
+            class="SingleDatePicker"
+          >
+            <div>
+              <div
+                class="SingleDatePickerInput"
+              >
+                <div
+                  class="DateInput DateInput--open-down"
+                >
+                  <input
+                    aria-describedby="DateInput__screen-reader-message-date"
+                    aria-label="Date"
+                    autocomplete="off"
+                    class="DateInput__input needsclick"
+                    id="date"
+                    name="date"
+                    placeholder="Date"
+                    type="text"
+                    value="1969-12-31"
+                  />
+                  <p
+                    class="screen-reader-only"
+                    id="DateInput__screen-reader-message-date"
+                  >
+                    Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                  </p>
+                  <div
+                    class="DateInput__display-text DateInput__display-text--has-input"
+                  >
+                    12/31/1969
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <textarea
+            placeholder="Add a note for your expense (optional)"
+          />
+          <button>
+            Add Expense
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <form>
+        <input
+          placeholder="Description"
+          type="text"
+          value="Gum"
+        />
+        <input
+          placeholder="Amount"
+          type="text"
+          value="1.95"
+        />
+        <div
+          class="SingleDatePicker"
+        >
+          <div>
+            <div
+              class="SingleDatePickerInput"
+            >
+              <div
+                class="DateInput DateInput--open-down"
+              >
+                <input
+                  aria-describedby="DateInput__screen-reader-message-date"
+                  aria-label="Date"
+                  autocomplete="off"
+                  class="DateInput__input needsclick"
+                  id="date"
+                  name="date"
+                  placeholder="Date"
+                  type="text"
+                  value="1969-12-31"
+                />
+                <p
+                  class="screen-reader-only"
+                  id="DateInput__screen-reader-message-date"
+                >
+                  Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+                </p>
+                <div
+                  class="DateInput__display-text DateInput__display-text--has-input"
+                >
+                  12/31/1969
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <textarea
+          placeholder="Add a note for your expense (optional)"
+        />
+        <button>
+          Add Expense
+        </button>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,17 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
 import './index.css';
-import App from './App';
+import AppRouter from './routers/AppRouter';
 import reportWebVitals from './reportWebVitals';
+import configureStore from './store/configureStore';
+import { addExpense } from './actions/expenses';
+import { setTextFilter } from './actions/filters';
+import getVisibleExpenses  from './selectors/expenses';
+import './styles/styles.scss'
+
+
+const store = configureStore();
+
+store.dispatch(addExpense({description: 'Water Bill', amount:400, createdAt: 100}));
+store.dispatch(addExpense({description: 'Gas Bill', amount:600, createdAt: 500}));
+store.dispatch(addExpense({description: 'Rent', amount:1000, createdAt: -1000000}));
+//store.dispatch(setTextFilter('gas'));
+
+// setTimeout(() => {
+//   store.dispatch(setTextFilter('water'));
+// }, 3000)
+
+console.log(getVisibleExpenses(store.getState().expenses, store.getState().filters));
+
+
+const jsx = (
+  <Provider store={store}><AppRouter /></Provider>
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    jsx
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+// =================================
+
