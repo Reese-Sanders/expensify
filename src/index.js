@@ -13,9 +13,6 @@ import './styles/styles.scss'
 
 const store = configureStore();
 
-store.dispatch(addExpense({description: 'Water Bill', amount:400, createdAt: 100}));
-store.dispatch(addExpense({description: 'Gas Bill', amount:600, createdAt: 500}));
-store.dispatch(addExpense({description: 'Rent', amount:1000, createdAt: -1000000}));
 //store.dispatch(setTextFilter('gas'));
 
 // setTimeout(() => {
