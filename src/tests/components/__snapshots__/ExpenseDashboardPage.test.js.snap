@@ -121,6 +121,14 @@ Object {
         </div>
         <div>
           <p>
+            Viewing 
+            0
+             totalling 
+            $0.00
+          </p>
+        </div>
+        <div>
+          <p>
             No Expenses
           </p>
         </div>
@@ -241,6 +249,14 @@ Object {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <p>
+          Viewing 
+          0
+           totalling 
+          $0.00
+        </p>
       </div>
       <div>
         <p>
