@@ -16,11 +16,11 @@ const MockAddExpensePage = (props) => {
   )
 }
 
-test('should render AddExpensePage correctly', () => {
+/*test('should render AddExpensePage correctly', () => {
   const onSubmit = jest.fn();
   const container = render(<MockAddExpensePage onSubmit={onSubmit}/>);
   expect(container).toMatchSnapshot();
-});
+});*/
 
 test('should handle onSubmit', () => {
   const onSubmit = jest.fn();
